@@ -1,0 +1,35 @@
+{% extends "home.html.twig" %}
+
+{% block body %}
+	<div class="container initial">
+		<div class="presentation">
+			<h1>Météo actuelle à
+				{{cityName|title}}</h1>
+			<h5>{{date | format_datetime('full','none', locale='fr')}}</h5>
+		</div>
+		<div class="application">
+			<table>
+				<tr>
+					<h3 colspan="2">
+						{{description| capitalize}}</h3>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h5>Température actuelle</h5>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="numberOne">{{temperature|round(1,'floor')}}°C</td>
+				</tr>
+				<tr>
+					<td><h6>T° minimun</h6></td>
+					<td><h6>T° maximum</h6></td>
+				</tr>
+				<tr>
+					<td class="number">{{tempMin| round(1,'floor') }}°C</td>
+					<td class="number">{{tempMax | round(1,'floor') }}°C</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+{% endblock %}

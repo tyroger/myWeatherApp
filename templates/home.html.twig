@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+	MyWeatherApp
+{% endblock %}
+
+{% block header %}
+	<div class="container homepage">
+		<h1>
+			<a href="{{ path("homepage") }}">MyWeatherApp</a>
+		</h1>
+	</div>
+	<div class="container-fluid research">
+		<div class=" container">
+			<form action="" method="GET">
+				<input type="text" name="cityName" id="" placeholder="Choisissez une ville" class="inputResearch">
+				<input type="submit" value="valider" type="button" class="btn btn-primary btn-sm">
+			</form>
+		</div>
+	</div>
+{% endblock %}

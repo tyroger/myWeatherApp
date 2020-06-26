@@ -1,0 +1,89 @@
+body {
+    color: #f5f6fa;
+    background-image: url(/img/frog.jpg);
+    ;
+}
+
+.research, .presentation, .application h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.presentation h1 {
+    font-size: 30px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.homepage h1 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.inputResearch {
+    padding: 3px 2px 4px;
+    margin: 5px auto;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 3px;
+    color: #ffffff;
+    background-color:  #5d4037;
+}
+
+a {
+    font-family: fantasy;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f1f2f6;
+}
+
+.application h3 {
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #33d9b2;
+}
+
+.application h5 {
+    font-size: 22px;
+    font-weight: bolder;
+    border-bottom: 1px solid #33d9b2;
+}
+
+.application h6 {
+    font-size: 15px;
+    font-weight: bolder;
+    border-bottom: 1px solid #33d9b2;
+}
+
+table {
+    text-align: center;
+    margin: 50px auto;
+}
+
+td.numberOne {
+    font-size: 35px;
+    font-weight: bold;
+    color: #33d9b2;
+    padding-bottom: 15px;
+}
+
+td.number {
+    font-size: 18px;
+}
+
+.footer, .research {
+    background-color: #52be80 ;
+    border: 1px solid #2f3542;
+}
+
+.footer {
+    padding-top: 4px;
+}

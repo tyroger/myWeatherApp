@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Erreur de saisie</h1>
+				<p><strong>La ville que vous avez demandé n'a pas été trouvée.</strong></p>
+				<p>Vérifiez l'orthographe exacte de la ville.</p>
+				<p>
+                <button class="btn btn-success"><a href="{{ path('homepage') }}">Retour à l'accueil</a></button>
+					
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock %}
